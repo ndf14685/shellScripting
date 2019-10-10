@@ -1,0 +1,98 @@
+TAB
+
+Ctrl +L 
+
+Shift + PgDown o PgUp
+
+
+Comilla invertida: Es lo mismo que $( )  
+
+Ejecuta un comando 
+
+:wq
+
+loadkeys es   ---> Cambia de idioma el teclado? 
+
+
+/etc/profile    En CENTOS define el bash cuando ingresas al SO
+
+
+
+
+
+SO 
+SystemD
+Mingueti
+Bash
+/etc/profile
+/etc/profile.d/
+~/.bashprofile  --> Home del usuario
+
+~/.bashrc    ---> Podes editarlo agregando comandos para que se ejecuten al inicio de sesion
+
+
+
+Lo importante del curso es: SABER DE LA FORMA MAS SENCILLA RESOLVER UN PROBLEMA
+
+
+Formas de ejecutar: 
+chmod para dar permisos de ejecucion
+
+chmod +x script1.sh
+
+Dentro de un directorio siempre va a haber dos directorios: 
+.
+..
+
+Son punteros, el primero indica el directorio donde estoy, el otro el anterior inmediato
+./script
+/home/ndf/Documents/workspace/shellScripting/clase1/script1.sh
+
+
+Variables: 
+Todos los lenguajes la usan, en bash no son tipados, pueden contener lo que sea. 
+
+Por estandard se escriben con mayusculas aca
+
+
+Comando:
+echo --> escribe por pantalla lo que quiero que imprima
+
+echo hola
+
+echo $VARIABLE
+
+
+
+Comando:
+env --> Nos indica todas las variables de entorno
+
+PWD --> Variable de entorno que nos dice el directorio actual
+
+OLDPWD --> Directorio anterior que estuve antes del que estoy
+
+
+cd -     --> Hace lo mismo
+
+
+PATH    
+
+Cada uno de las ubicaciones que esten aqui, el bash identifica con esto los ejecutables que hay en estos directorios
+
+
+Todos las ubicaciones que agregemos aca van a estar disponible 
+
+HOME
+
+
+Espacio es un caracter especial, para hacerlo literal " "
+
+echo $?
+Variable donde se guarda el estado / resultado de la ultima inmediata ejecucion, sea lo que sea
+
+
+&& 
+Ejecuta inmediatamente lo que sigue si salio bien
+
+#
+Para comentar

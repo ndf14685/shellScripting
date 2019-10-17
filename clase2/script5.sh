@@ -3,6 +3,8 @@
 read -p "INGRESE NOMBRE: " NOMBRE
 
 #NOM=$(echo $NOMBRE | sed -e s/[A-Z]/[a-z]/g)
+NOM=$(echo $NOMBRE |tr '[:lower:]' '[:upper:]')
+
 case $NOMBRE in
 jose|juan)
         echo "Su apodo es Pepe";

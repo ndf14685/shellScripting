@@ -96,3 +96,30 @@ Ejecuta inmediatamente lo que sigue si salio bien
 
 #
 Para comentar
+
+
+export 
+Genera variable para que cualquier hijo bash pueda reutilizarla 
+
+
+alias
+
+
+TODO: Crear un script que me cargue los alias que necesito para mi sesion
+
+
+Si creo el alias en ~/.bashrc entonces me las genera cada vez que carga el bash
+
+
+Primero verifica que no sea un alias, luego si es comando
+
+
+Read: 
+Lee la variable y te pone el promt para que defina que hace esa variable
+
+
+
+
+motd 
+Imprime frases por defecto de cientificos, podes customizarlo para poner lo que necesite
+

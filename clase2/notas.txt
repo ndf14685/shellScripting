@@ -1,0 +1,87 @@
+&& Si y solo si (el anterior se ejecuTO bien) 
+
+|| o   se ejecuta el 1ro o el 2do 
+
+
+:wq guarda y sale 
+:q Sale 
+:q! Sale y fuerza a salir
+
+shift + z z  es igual a :wq  guarda y sale del archivo (VI)
+
+
+para agregar 
+
+
+
+
+Sentencia IF
+
+
+if COMANDO
+	then 
+		COMANDO1
+		COMANDO2
+		COMANDO3
+		.
+		.
+		.
+		COMANDON
+fi
+
+
+
+Comando test, verifica dos opciones (Numeros)
+
+-eq  Puede testear si dos variables son NUMERICAMENTE iguales 
+
+
+
+echo $? Me devuelve el resultado del comando anterior
+
+
+ej: 
+
+test $VARIABLE -eq 3
+
+
+
+La herramienta 
+date +%u  -- Me devuelve el nro de dia 
+
+
+
+-gt
+
+-lt
+
+-le
+-ge
+-g
+-f   Verifica si existe y si es un archivo (si es dir devuelve distinto de 0) 
+-d
+-he
+
+Ver man
+
+Para comparar palabras == 
+!= Distinto de
+
+Poner los comandos entre corchetes es exactamente lo mismo que poner la palabra test
+[prueba ]
+
+
+
+CASE
+
+read NOMBRE
+
+case $NOMBRE in
+jose)
+	echo "Su apodo es Pepe";;
+guillermo)
+        echo "Su apodo es Guille";;
+miguel)
+        echo "Su apodo es miki";;
+*)
+        echo "No encuentro apodo para ese nombre";;

@@ -1,0 +1,14 @@
+Comando: 
+
+Reset: Resetea la consola reiniciando solo la consola y el bash. (Por si queda mal)
+
+
+touch {1..10}.jpg  ---> Genera los archivos en secuencia, osea del 1 al 10
+
+
+cut -d " " -f 3,4  --> Cut corta la linea por el delimitador que definamos (" " un espacio en este caso) y -f le dice que nro de campo a tomar de esa linea
+
+
+
+
+/etc/DIRCOLORS  ---> ACa se definen los colores para identificar a cada color

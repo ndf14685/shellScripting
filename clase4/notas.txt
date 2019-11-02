@@ -1,0 +1,27 @@
+
+checklist
+
+radiolist (excluyente) 
+
+
+
+
+AWK: Es Gawk
+
+Es un software de bajo nivel con su propio lenguaje de programacion y funciona para formatear texto
+Por defecto awk usa como separador el ESPACIO
+
+awk -F":"  ----> Con esto se cambia separador default a :
+
+
+
+Otros bash: 
+zsh
+ksh
+
+
+CTRL + R --> Busqueda en el history
+
+CTRL + L --> Limpia TERMINAL
+
+

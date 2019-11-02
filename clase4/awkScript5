@@ -1,0 +1,13 @@
+BEGIN
+{
+print "LISTA DE PERSONAS con JOTAS"
+}
+
+/j/
+{
+print "$1"
+}
+END
+{
+print "FIN DEL ARCHIVO"
+}

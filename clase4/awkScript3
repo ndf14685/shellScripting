@@ -1,0 +1,11 @@
+BEGIN
+{
+print "LISTA DE PERSONAS"
+}
+ {
+print "$1"
+}
+END
+{
+print "FIN DEL ARCHIVO"
+}
